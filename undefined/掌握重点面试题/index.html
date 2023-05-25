@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="livemylife,IT  blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/roguerabbit.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+      <!-- gitalk start -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/css/gitalk.css"/>
+      <!-- gitalk end -->
+    
+
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://yoursite-url/undefined/掌握重点面试题/">
+  <title>
+    
+      掌握重点面试题 - Katrina
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<!-- hack iOS CSS :active style -->
+
+	<body ontouchstart="" class="body--light body--dark">
+
+
+		<!-- ThemeColor -->
+		
+		<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'dark';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+		
+
+		<!-- Gitter -->
+		
+		<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+		
+
+		<!-- Navigation (contains search)-->
+		<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Live My Life</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+		<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+		<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <!-- CDN: jsdelivr start -->
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/img/header_img/newhome_bg.jpg');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/img/header_img/archive_bg2.jpg');
+    }
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/img/header_img/newhome_bg.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/img/header_img/archive_bg2.jpg');
+    }
+    header.intro-header {
+       /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io'); */
+      
+    }
+
+    
+      #signature {/*signature*/
+        background-image: url('/img/signature/vincent-white.png');
+      }
+    
+  </style>
+  <!-- CDN: jsdelivr end -->
+
+
+
+
+
+<header class="intro-header">
+  <!-- Signature -->
+  <div id="signature">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          
+          <div class="post-heading">
+            <div class="tags">
+              
+            </div>
+            <h1>掌握重点面试题</h1>
+            <h2 class="subheading"></h2>
+            <span class="meta">
+              Posted by Katrina on
+              2022-05-25
+            </span>
+
+
+            
+            <!-- WordCount start -->
+            <div class="blank_box"></div>
+            <span class="meta">
+              Estimated Reading Time <span class="post-count">24</span> Minutes
+            </span>
+            <div class="blank_box"></div>
+            <span class="meta">
+              Words <span class="post-count">5.9k</span> In Total
+            </span>
+            <div class="blank_box"></div>
+            <!-- WordCount end -->
+            
+            
+            <!-- 不蒜子统计 start -->
+            <span class="meta" id="busuanzi_container_page_pv">
+              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Times
+            </span>
+            <!-- 不蒜子统计 end -->
+            
+
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- waveoverlay start -->
+  <div class="preview-overlay">
+    <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+      </defs>
+      <g class="preview-parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+        <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+        <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+        <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+      </g>
+    </svg>
+  </div>
+  <!-- waveoverlay end -->
+  
+
+</header>
+
+
+
+		<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+		<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p><strong>001：</strong></p>
+<h5 id="1、react有哪些性能优化的点"><a href="#1、react有哪些性能优化的点" class="headerlink" title="1、react有哪些性能优化的点"></a>1、react有哪些性能优化的点</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>、https:<span class="comment">//github.com/brickspert/blog/issues/36</span></span><br></pre></td></tr></table></figure>
+<h5 id="2、v8垃圾回收机制"><a href="#2、v8垃圾回收机制" class="headerlink" title="2、v8垃圾回收机制"></a>2、v8垃圾回收机制</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//</span>juejin.cn<span class="regexp">/post/</span><span class="number">6844904016325902344</span></span><br></pre></td></tr></table></figure>
+<h5 id="3、CSS样式隔离手段"><a href="#3、CSS样式隔离手段" class="headerlink" title="3、CSS样式隔离手段"></a>3、CSS样式隔离手段</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//</span>juejin.cn<span class="regexp">/post/</span><span class="number">6844904034281734151</span><span class="comment">#heading-9</span></span><br></pre></td></tr></table></figure>
+<h5 id="5、聊下你知道的浏览器架构"><a href="#5、聊下你知道的浏览器架构" class="headerlink" title="5、聊下你知道的浏览器架构"></a>5、聊下你知道的浏览器架构</h5><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">浏览器进程（Browser process）</span><br><span class="line">浏览器进程负责管理 Chrome 应用本身，包括地址栏、书签、前进和后退按钮。同时也负责可不见的功能，比如网络请求、文件按访问等，也负责其他进程的调度。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">渲染进程（Renderer process）</span><br><span class="line">渲染进程负责站点的渲染，其中也包括 JavaScript 代码的运行，web worker 的管理等。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">插件进程（Plugin process）</span><br><span class="line">插件进程负责为浏览器提供各种额外的插件功能，例如 flash。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">GPU 进程（GPU process）</span><br><span class="line">GPU 进程负责提供成像的功能。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">当然还有其他像扩展进程或工具进程等其他进程，可以在 Chrome 的 <span class="built_in">Task</span> Manager 面板中查看，面板中列出了运行的进程和其占用的 CPU、内存情况。</span><br><span class="line">https:<span class="comment">//xie.infoq.cn/article/5d36d123bfd1c56688e125ad3</span></span><br></pre></td></tr></table></figure>
+<h5 id="6、是否有写过webpack插件"><a href="#6、是否有写过webpack插件" class="headerlink" title="6、是否有写过webpack插件"></a>6、是否有写过webpack插件</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">看下webpack.config.js   如果没有运行 yarn eject 就会解包处理config文件夹，文件夹中包含。</span><br><span class="line">https:<span class="regexp">//</span>juejin.cn<span class="regexp">/post/</span><span class="number">6844903789804126222</span></span><br></pre></td></tr></table></figure>
+<h5 id="7、websocket建立过程"><a href="#7、websocket建立过程" class="headerlink" title="7、websocket建立过程"></a>7、websocket建立过程</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//</span>blog.csdn.net<span class="regexp">/LL845876425/</span>article<span class="regexp">/details/</span><span class="number">106393358</span></span><br></pre></td></tr></table></figure>
+<h5 id="9、实现防抖函数"><a href="#9、实现防抖函数" class="headerlink" title="9、实现防抖函数"></a>9、实现防抖函数</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">E:</span><br><span class="line"><span class="keyword">const</span> debounce = <span class="function">(<span class="params">func, wait</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> timer</span><br><span class="line">    <span class="keyword">return</span> <span class="function">() =&gt;</span> &#123;</span><br><span class="line">		<span class="built_in">clearTimeout</span>(timer)</span><br><span class="line">        timer = <span class="built_in">setTimeout</span>(func, wait);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">D:</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">debounce</span>(<span class="params">callback,delay</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">let</span> timer=<span class="literal">null</span>;</span><br><span class="line">    <span class="keyword">var</span> that=<span class="built_in">this</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">var</span> args=<span class="built_in">Array</span>.prototype.slice.call(<span class="built_in">arguments</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(timer !== <span class="literal">null</span>)&#123;</span><br><span class="line">            <span class="built_in">clearTimeout</span>(timer)</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        timer=<span class="built_in">setTimeout</span>(<span class="function">()=&gt;</span>&#123;</span><br><span class="line">            callback.apply(that,args)</span><br><span class="line">        &#125;,delay)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h5 id="10、Vue首屏白屏或者加载慢如何解决"><a href="#10、Vue首屏白屏或者加载慢如何解决" class="headerlink" title="10、Vue首屏白屏或者加载慢如何解决"></a>10、Vue首屏白屏或者加载慢如何解决</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//</span>juejin.cn<span class="regexp">/post/</span><span class="number">6995455015972241444</span></span><br></pre></td></tr></table></figure>
+<h5 id="11、Vue线上环境和开发环境如何切换"><a href="#11、Vue线上环境和开发环境如何切换" class="headerlink" title="11、Vue线上环境和开发环境如何切换"></a>11、Vue线上环境和开发环境如何切换</h5><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.<span class="keyword">env</span>文件或者<span class="keyword">env</span>,js文件，再通过process.<span class="keyword">env</span>判断切换</span><br></pre></td></tr></table></figure>
+<h5 id="12、谈谈axios拦截器"><a href="#12、谈谈axios拦截器" class="headerlink" title="12、谈谈axios拦截器"></a>12、谈谈axios拦截器</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">请求拦截器和响应拦截器</span><br><span class="line">请求拦截器</span><br><span class="line">axios.interceptors.request.use(func)</span><br><span class="line">响应拦截器</span><br><span class="line">axios.interceptors.response.use(func)</span><br></pre></td></tr></table></figure>
+<h5 id="13、hash和history路由的区别"><a href="#13、hash和history路由的区别" class="headerlink" title="13、hash和history路由的区别"></a>13、hash和history路由的区别</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//</span>blog.csdn.net<span class="regexp">/Charissa2017/</span>article<span class="regexp">/details/</span><span class="number">104779412</span></span><br></pre></td></tr></table></figure>
+<h5 id="14、call，apply和bind的作用和区别？"><a href="#14、call，apply和bind的作用和区别？" class="headerlink" title="14、call，apply和bind的作用和区别？"></a>14、call，apply和bind的作用和区别？</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">call和apply改变了函数的<span class="built_in">this</span>上下文后便执行该函数,而bind则是返回改变了上下文后的一个函数。</span><br><span class="line">他们俩之间的差别在于参数的区别，call和apply的第一个参数都是要改变上下文的对象，</span><br><span class="line">而call从第二个参数开始以参数列表的形式展现，apply则是把除了改变上下文对象的参数放在一个数组里面作为它的第二个参数。</span><br><span class="line"></span><br><span class="line"><span class="number">1</span>、判断变量类型：</span><br><span class="line"> &lt;script&gt;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> arr1 = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line">    <span class="keyword">let</span> str1 = <span class="string">&#x27;string&#x27;</span>;</span><br><span class="line">    <span class="keyword">let</span> obj1 = &#123; <span class="attr">name</span>: <span class="string">&#x27;thomas&#x27;</span> &#125;;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">isArray</span>(<span class="params">obj</span>) </span>&#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="built_in">Object</span>.prototype.toString.call(obj) === <span class="string">&#x27;[object Array]&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">console</span>.log(fn1(arr1)); <span class="comment">// true // 判断类型的方式，这个最常用语判断array和object，null(因为typeof null等于object) </span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">Object</span>.prototype.toString.call(arr1)); <span class="comment">// [object Array] </span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">Object</span>.prototype.toString.call(str1)); <span class="comment">// [object String] </span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">Object</span>.prototype.toString.call(obj1)); <span class="comment">// [object Object] </span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">Object</span>.prototype.toString.call(<span class="literal">null</span>)); <span class="comment">// [object Null]</span></span><br><span class="line">  &lt;/script&gt;</span><br><span class="line">  <span class="number">2</span>、利用call和apply做继承</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">Animal</span>(<span class="params">name</span>)</span>&#123;      </span><br><span class="line">      <span class="built_in">this</span>.name = name;      </span><br><span class="line">      <span class="built_in">this</span>.showName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;      </span><br><span class="line">          <span class="built_in">console</span>.log(<span class="built_in">this</span>.name);      </span><br><span class="line">      &#125;      </span><br><span class="line">  &#125;      </span><br><span class="line">  </span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">Cat</span>(<span class="params">name</span>)</span>&#123;    </span><br><span class="line">      Animal.call(<span class="built_in">this</span>, name);    </span><br><span class="line">  &#125;      </span><br><span class="line">  </span><br><span class="line">  <span class="comment">// Animal.call(this) 的意思就是使用this对象代替Animal对象，那么</span></span><br><span class="line">  <span class="comment">// Cat中不就有Animal的所有属性和方法了吗，Cat对象就能够直接调用Animal的方法以及属性了</span></span><br><span class="line">  <span class="keyword">var</span> cat = <span class="keyword">new</span> Cat(<span class="string">&quot;TONY&quot;</span>);     </span><br><span class="line">  cat.showName();   <span class="comment">//TONY</span></span><br><span class="line">  </span><br><span class="line">  参考给大家发的有道文档</span><br></pre></td></tr></table></figure>
+<h5 id="15、useMemo的作用"><a href="#15、useMemo的作用" class="headerlink" title="15、useMemo的作用"></a>15、useMemo的作用</h5><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">数据缓存机制，避免在每次渲染时都进行高开销的计算。</span><br><span class="line">https:<span class="regexp">//</span>zh-hans.reactjs.org<span class="regexp">/docs/</span>hooks-reference.html<span class="comment">#usememo</span></span><br></pre></td></tr></table></figure>
+<h5 id="16、react中发送请求一般在哪个hook中"><a href="#16、react中发送请求一般在哪个hook中" class="headerlink" title="16、react中发送请求一般在哪个hook中"></a>16、react中发送请求一般在哪个hook中</h5><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">useEffect</span> </span><br></pre></td></tr></table></figure>
+<h5 id="17、如何更新组件的状态"><a href="#17、如何更新组件的状态" class="headerlink" title="17、如何更新组件的状态"></a>17、如何更新组件的状态</h5><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">render</span><br><span class="line">setState(<span class="keyword">class</span> <span class="symbol">component</span>)</span><br><span class="line"><span class="symbol">forceUpdate</span>(<span class="symbol">class</span> <span class="symbol">component</span>)</span><br><span class="line"><span class="symbol">useState</span> (<span class="symbol">function</span> <span class="symbol">component</span>)</span><br></pre></td></tr></table></figure>
+<h5 id="18、如何监听react状态更新"><a href="#18、如何监听react状态更新" class="headerlink" title="18、如何监听react状态更新"></a>18、如何监听react状态更新</h5><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">componentWillUpdate</span></span><br><span class="line"><span class="attribute">useEffect</span></span><br></pre></td></tr></table></figure>
+<h5 id="19、Vue中的响应式原理"><a href="#19、Vue中的响应式原理" class="headerlink" title="19、Vue中的响应式原理"></a>19、Vue中的响应式原理</h5><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">Vue</span>不支持<span class="selector-tag">IE8</span>以下版本的浏览器，因为<span class="selector-tag">Vue</span>是基于 <span class="selector-tag">Object</span><span class="selector-class">.defineProperty</span> 来实现数据响应的，而<span class="selector-tag">Object</span><span class="selector-class">.defineProperty</span> 是 <span class="selector-tag">ES5</span> 中一个无法 <span class="selector-tag">shim</span> 的特性，这也就是为什么 <span class="selector-tag">Vue</span> 不支持 <span class="selector-tag">IE8</span> 以及更低版本浏览器的原因；<span class="selector-tag">Vue</span>通过<span class="selector-tag">Object</span><span class="selector-class">.defineProperty</span>的 <span class="selector-tag">getter</span>/<span class="selector-tag">setter</span> 对收集的依赖项进行监听,在属性被访问和修改时通知变化,进而更新视图数据；</span><br><span class="line">受现代<span class="selector-tag">JavaScript</span> 的限制 (以及废弃 Object.observe)，<span class="selector-tag">Vue</span>不能检测到对象属性的添加或删除。由于 <span class="selector-tag">Vue</span> 会在初始化实例时对属性执行 <span class="selector-tag">getter</span>/<span class="selector-tag">setter</span> 转化过程，所以属性必须在 <span class="selector-tag">data</span> 对象上存在才能让<span class="selector-tag">Vue</span>转换它，这样才能让它是响应的。</span><br><span class="line"><span class="selector-tag">shim</span>:<span class="selector-tag">shim</span>可以将新的<span class="selector-tag">API</span>引入到旧的环境中，而且仅靠就环境中已有的手段实现。意思就是<span class="selector-tag">Object</span><span class="selector-class">.defineProperty</span>这个特性是无法使用低级浏览器中的方法来实现的，所以<span class="selector-tag">Vue</span>不支持<span class="selector-tag">IE8</span>以及更低版本的浏览器。</span><br><span class="line">第一步：需要 <span class="selector-tag">observe</span> 的数据对象进行递归遍历，包括子属性对象的属性，都加上<span class="selector-tag">setter</span>和<span class="selector-tag">getter</span> 这样的话，给这个对象的某个值赋值，就会触发 <span class="selector-tag">setter</span>，那么就能监听到了数据变化。</span><br><span class="line">第二步：<span class="selector-tag">compile</span> 解析模板指令，将模板中的变量替换成数据，然后初始化渲 染页面视图，并将每个指令对应的节点绑定更新函数，添加监听数据的订阅者， 一旦数据有变动，收到通知，更新视图。</span><br><span class="line">第三步：<span class="selector-tag">Watcher</span> 订阅者是 <span class="selector-tag">Observer</span> 和 <span class="selector-tag">Compile</span> 之间通信的桥梁，主要做的事情是: </span><br><span class="line">	<span class="selector-tag">1</span>、在自身实例化时往属性订阅器(dep)里面添加自己 </span><br><span class="line">	<span class="selector-tag">2</span>、自身必须有一个 <span class="selector-tag">update</span>()方法 </span><br><span class="line">	<span class="selector-tag">3</span>、待属性变动 <span class="selector-tag">dep</span><span class="selector-class">.notice</span>()通知时，能调用自身的 <span class="selector-tag">update</span>()方法，并触发 <span class="selector-tag">Compile</span> 中绑定的回调，则功成身退。 </span><br><span class="line">第四步：<span class="selector-tag">MVVM</span> 作为数据绑定的入口，整合 <span class="selector-tag">Observer</span>、<span class="selector-tag">Compile</span> 和 <span class="selector-tag">Watcher</span> 三者，通过 <span class="selector-tag">Observer</span> 来监听自己的 <span class="selector-tag">model</span> 数据变化，通过 <span class="selector-tag">Compile</span> 来解析编译模 板指令，最终利用 <span class="selector-tag">Watcher</span> 搭起 <span class="selector-tag">Observer</span> 和 <span class="selector-tag">Compile</span> 之间的通信桥梁，达到数据 变化 <span class="selector-tag">-</span>&gt; 视图更新；视图交互变化(input) <span class="selector-tag">-</span>&gt; 数据 <span class="selector-tag">model</span> 变更的双向绑定效果。</span><br></pre></td></tr></table></figure>
+<h5 id="20、Vue-Router-有哪几种路由守卫"><a href="#20、Vue-Router-有哪几种路由守卫" class="headerlink" title="20、Vue-Router 有哪几种路由守卫?"></a>20、Vue-Router 有哪几种路由守卫?</h5><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">全局守卫</span><br><span class="line">router.<span class="keyword">beforeEach </span>全局前置守卫</span><br><span class="line">router.<span class="keyword">beforeResolve </span> 全局解析守卫</span><br><span class="line">router.afterEach 全局后置钩子</span><br><span class="line">路由独享守卫</span><br><span class="line"><span class="keyword">beforeEnter</span></span><br><span class="line"><span class="keyword">路由组件内的守卫</span></span><br><span class="line"><span class="keyword">beforeRouteEnter</span></span><br><span class="line"><span class="keyword">beforeRouteUpdate</span></span><br><span class="line"><span class="keyword">beforeRouteLeave</span></span><br></pre></td></tr></table></figure>
+<h5 id="21、简述-Vuex-的数据传递流程"><a href="#21、简述-Vuex-的数据传递流程" class="headerlink" title="21、简述 Vuex 的数据传递流程"></a>21、简述 Vuex 的数据传递流程</h5><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>、通过new Vuex.Store()创建一个仓库 <span class="keyword">state</span>是公共的状态，state---&gt;components渲染页面</span><br><span class="line"><span class="number">2</span>、在组件内部通过this.<span class="variable">$store</span>.<span class="keyword">state</span>.属性 来调用公共状态中的<span class="keyword">state</span>，进行页面的渲染。</span><br><span class="line"><span class="number">3</span>、当组件需要修改数据的时候，必须遵循单向数据流。通过this.<span class="variable">$store</span>.dispatch来触发actions中的方法</span><br><span class="line"><span class="number">4</span>、actions中的每个方法都会接受一个对象 这个对象里面有一个commit方法，用来触发mutations里面的方法</span><br><span class="line"><span class="number">5</span>、mutations里面的方法用来修改<span class="keyword">state</span>中的数据 mutations里面的方法都会接收到<span class="number">2</span>个参数 一个是store中的<span class="keyword">state</span>另外一个是需要传递到参数</span><br><span class="line"><span class="number">6</span>、当mutations中的方法执行完毕后<span class="keyword">state</span>会发生改变，因为vuex的数据是响应式的 所以组件的状态也会发生改变</span><br></pre></td></tr></table></figure>
+<h5 id="22、Vue-和-jQuery-两者之间的区别是什么"><a href="#22、Vue-和-jQuery-两者之间的区别是什么" class="headerlink" title="22、Vue 和 jQuery 两者之间的区别是什么"></a>22、Vue 和 jQuery 两者之间的区别是什么</h5><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">jquery直接操作dom</span></span><br><span class="line"><span class="keyword"></span></span><br><span class="line"><span class="keyword">Vue不直接操作dom，采用虚拟dom</span></span><br><span class="line"><span class="keyword"></span></span><br><span class="line"><span class="keyword">Vue通过数据驱动界面</span></span><br><span class="line"><span class="keyword"></span></span><br><span class="line"><span class="keyword">jquery通过选择器选取元素，进行取值赋值、事件绑定等操作</span></span><br><span class="line"><span class="keyword"></span></span><br><span class="line"><span class="keyword">Vue对项目的侵入较强。</span></span><br></pre></td></tr></table></figure>
+<h5 id="23、Object-defineProperty-和-Proxy-的区别"><a href="#23、Object-defineProperty-和-Proxy-的区别" class="headerlink" title="23、Object.defineProperty 和 Proxy 的区别"></a>23、Object.defineProperty 和 Proxy 的区别</h5><figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>）<span class="built_in">Proxy</span> 的优势如下: <span class="built_in">Proxy</span> 可以直接监听对象而非属性； <span class="built_in">Proxy</span> 可以直接监听数组的变化； </span><br><span class="line"><span class="built_in">Proxy</span> 有多达 <span class="number">13</span> 种拦截方法,不限于 apply、ownKeys、deleteProperty、has等等是<span class="built_in">Object</span>.defineProperty 不具备的；</span><br><span class="line"><span class="built_in">Proxy</span>返回的是一个新对象,我们可以只操作新的对象达到目的,而<span class="built_in">Object</span>.defineProperty 只能遍历对象属性直接修改； </span><br><span class="line"><span class="built_in">Proxy</span> 作为新标准将受到浏览器厂商重点持续的性能优化，也就是传说中的 新标准的性能红利； </span><br><span class="line"><span class="number">2</span>）<span class="built_in">Object</span>.defineProperty 的优势如下: 兼容性好，支持 IE9，而 <span class="built_in">Proxy</span> 的存在浏览器兼容性问题,而且无法用 polyfill。</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h5 id="24、Vue怎么在组件中监听路由参数的变化？"><a href="#24、Vue怎么在组件中监听路由参数的变化？" class="headerlink" title="24、Vue怎么在组件中监听路由参数的变化？"></a>24、Vue怎么在组件中监听路由参数的变化？</h5><figure class="highlight sqf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">第一种 watch: &#123; <span class="string">&#x27;$route&#x27;</span>(<span class="keyword">to</span>, <span class="keyword">from</span>) &#123; <span class="comment">// 在此处监听 &#125;, &#125;,</span></span><br><span class="line">第二种beforeRouteUpdate (<span class="keyword">to</span>, <span class="keyword">from</span>, next) &#123; <span class="comment">//这里监听 &#125;,</span></span><br></pre></td></tr></table></figure>
+<h5 id="26、Vue循环key的作用"><a href="#26、Vue循环key的作用" class="headerlink" title="26、Vue循环key的作用"></a>26、Vue循环key的作用</h5><figure class="highlight gauss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">key</span> 的作用主要是为了高效的更新虚拟 DOM。</span><br></pre></td></tr></table></figure>
+<h5 id="27、对比Vue和React的差异。"><a href="#27、对比Vue和React的差异。" class="headerlink" title="27、对比Vue和React的差异。"></a>27、对比Vue和React的差异。</h5><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">相同点：</span><br><span class="line">	数据驱动视图</span><br><span class="line">	组件化</span><br><span class="line">	都使用 Virtual DOM</span><br><span class="line">不同点：</span><br><span class="line">	核心思想不同：React：React推崇函数式编程（纯组件），数据不可变以及单向数据流,当然需要双向的地方也可以手动实现， 比如借助<span class="keyword">on</span>Change和<span class="built_in">set</span>State来实现。Vue：灵活易用的渐进式框架，进行数据拦截/代理，它对侦测数据的变化更敏感、更精确</span><br><span class="line">	组件写法不同：react：JSX + inline style vue：template</span><br><span class="line">	diff算法不同</span><br><span class="line">	响应式原理不同：</span><br><span class="line">Vue依赖收集，自动优化，数据可变。</span><br><span class="line">Vue递归监听data的所有属性,直接修改。</span><br><span class="line">当数据改变时，自动找到引用组件重新渲染。</span><br><span class="line"></span><br><span class="line">React基于状态机，手动优化，数据不可变，需要<span class="built_in">set</span>State驱动新的<span class="keyword">state</span>替换老的<span class="keyword">state</span>。当数据改变时，以组件为根目录，默认全部重新渲染, 所以 React 中会需要 shouldComponentUpdate 这个生命周期函数方法来进行控制</span><br></pre></td></tr></table></figure>
+<h5 id="28、ES中JavaScript的数据类型有哪些？"><a href="#28、ES中JavaScript的数据类型有哪些？" class="headerlink" title="28、ES中JavaScript的数据类型有哪些？"></a>28、ES中JavaScript的数据类型有哪些？</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Boolean</span>，<span class="literal">null</span>，<span class="literal">undefined</span>,<span class="built_in">Number</span>,<span class="built_in">BigInt</span>,<span class="built_in">String</span>,<span class="built_in">Symbol</span>,<span class="built_in">Object</span></span><br></pre></td></tr></table></figure>
+<h5 id="29、在JavaScript中，可以通过哪些方式改变this指向。"><a href="#29、在JavaScript中，可以通过哪些方式改变this指向。" class="headerlink" title="29、在JavaScript中，可以通过哪些方式改变this指向。"></a>29、在JavaScript中，可以通过哪些方式改变this指向。</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">回答这个首先明确下<span class="built_in">this</span>的指向问题：</span><br><span class="line">	一般来说，在<span class="built_in">this</span>指向全局对象<span class="built_in">window</span>（函数），对象里是指向调用对象，构造函数指向，指向实例，事件指向触发的dom对象，箭头函数没有自己的<span class="built_in">this</span>，指向外层的代码的<span class="built_in">this</span>，在严格模式下，<span class="built_in">this</span>为<span class="literal">undefined</span>。</span><br><span class="line">  </span><br><span class="line">  改变<span class="built_in">this</span>指向可以使用call、apply、bind等方法，具体见题<span class="number">14</span></span><br><span class="line">  </span><br></pre></td></tr></table></figure>
+<h5 id="30、http常见的header。"><a href="#30、http常见的header。" class="headerlink" title="30、http常见的header。"></a>30、http常见的header。</h5><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Header</th>
+<th>解释</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accept</td>
+<td>指定客户端能够接收的内容类型</td>
+<td>Accept: text/plain, text/html</td>
+</tr>
+<tr>
+<td>Accept-Charset</td>
+<td>浏览器可以接受的字符编码集。</td>
+<td>Accept-Charset: iso-8859-5</td>
+</tr>
+<tr>
+<td>Accept-Encoding</td>
+<td>指定浏览器可以支持的web服务器返回内容压缩编码类型。</td>
+<td>Accept-Encoding: compress, gzip</td>
+</tr>
+<tr>
+<td>Accept-Language</td>
+<td>浏览器可接受的语言</td>
+<td>Accept-Language: en,zh</td>
+</tr>
+<tr>
+<td>Accept-Ranges</td>
+<td>可以请求网页实体的一个或者多个子范围字段</td>
+<td>Accept-Ranges: bytes</td>
+</tr>
+<tr>
+<td>Authorization</td>
+<td>HTTP授权的授权证书</td>
+<td>Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==</td>
+</tr>
+<tr>
+<td>Cache-Control</td>
+<td>指定请求和响应遵循的缓存机制</td>
+<td>Cache-Control: no-cache</td>
+</tr>
+<tr>
+<td>Connection</td>
+<td>表示是否需要持久连接。（HTTP 1.1默认进行持久连接）</td>
+<td>Connection: close</td>
+</tr>
+<tr>
+<td>Cookie</td>
+<td>HTTP请求发送时，会把保存在该请求域名下的所有cookie值一起发送给web服务器。</td>
+<td>Cookie: $Version=1; Skin=new;</td>
+</tr>
+<tr>
+<td>Content-Length</td>
+<td>请求的内容长度</td>
+<td>Content-Length: 348</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>请求的与实体对应的MIME信息</td>
+<td>Content-Type: application/x-www-form-urlencoded</td>
+</tr>
+<tr>
+<td>Date</td>
+<td>请求发送的日期和时间</td>
+<td>Date: Tue, 15 Nov 2010 08:12:31 GMT</td>
+</tr>
+<tr>
+<td>Expect</td>
+<td>请求的特定的服务器行为</td>
+<td>Expect: 100-continue</td>
+</tr>
+<tr>
+<td>From</td>
+<td>发出请求的用户的Email</td>
+<td>From: user@email.com</td>
+</tr>
+<tr>
+<td>Host</td>
+<td>指定请求的服务器的域名和端口号</td>
+<td>Host: www.zcmhi.com</td>
+</tr>
+<tr>
+<td>If-Match</td>
+<td>只有请求内容与实体相匹配才有效</td>
+<td>If-Match: “737060cd8c284d8af7ad3082f209582d”</td>
+</tr>
+<tr>
+<td>If-Modified-Since</td>
+<td>如果请求的部分在指定时间之后被修改则请求成功，未被修改则返回304代码</td>
+<td>If-Modified-Since: Sat, 29 Oct 2010 19:43:31 GMT</td>
+</tr>
+<tr>
+<td>If-None-Match</td>
+<td>如果内容未改变返回304代码，参数为服务器先前发送的Etag，与服务器回应的Etag比较判断是否改变</td>
+<td>If-None-Match: “737060cd8c284d8af7ad3082f209582d”</td>
+</tr>
+<tr>
+<td>If-Range</td>
+<td>如果实体未改变，服务器发送客户端丢失的部分，否则发送整个实体。参数也为Etag</td>
+<td>If-Range: “737060cd8c284d8af7ad3082f209582d”</td>
+</tr>
+<tr>
+<td>If-Unmodified-Since</td>
+<td>只在实体在指定时间之后未被修改才请求成功</td>
+<td>If-Unmodified-Since: Sat, 29 Oct 2010 19:43:31 GMT</td>
+</tr>
+<tr>
+<td>Max-Forwards</td>
+<td>限制信息通过代理和网关传送的时间</td>
+<td>Max-Forwards: 10</td>
+</tr>
+<tr>
+<td>Pragma</td>
+<td>用来包含实现特定的指令</td>
+<td>Pragma: no-cache</td>
+</tr>
+<tr>
+<td>Proxy-Authorization</td>
+<td>连接到代理的授权证书</td>
+<td>Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>只请求实体的一部分，指定范围</td>
+<td>Range: bytes=500-999</td>
+</tr>
+<tr>
+<td>Referer</td>
+<td>先前网页的地址，当前请求网页紧随其后,即来路</td>
+<td>Referer: <a target="_blank" rel="noopener" href="http://www.zcmhi.com/archives/71.html">http://www.zcmhi.com/archives/71.html</a></td>
+</tr>
+<tr>
+<td>TE</td>
+<td>客户端愿意接受的传输编码，并通知服务器接受接受尾加头信息</td>
+<td>TE: trailers,deflate;q=0.5</td>
+</tr>
+<tr>
+<td>Upgrade</td>
+<td>向服务器指定某种传输协议以便服务器进行转换（如果支持）</td>
+<td>Upgrade: HTTP/2.0, SHTTP/1.3, IRC/6.9, RTA/x11</td>
+</tr>
+<tr>
+<td>User-Agent</td>
+<td>User-Agent的内容包含发出请求的用户信息</td>
+<td>User-Agent: Mozilla/5.0 (Linux; X11)</td>
+</tr>
+<tr>
+<td>Via</td>
+<td>通知中间网关或代理服务器地址，通信协议</td>
+<td>Via: 1.0 fred, 1.1 nowhere.com (Apache/1.1)</td>
+</tr>
+<tr>
+<td>Warning</td>
+<td>关于消息实体的警告信息</td>
+<td>Warn: 199 Miscellaneous warning</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id="31、http中cache-control的含义"><a href="#31、http中cache-control的含义" class="headerlink" title="31、http中cache-control的含义"></a>31、http中cache-control的含义</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Cache-Control 通用消息头字段，被用于在http请求和响应中，通过指定指令来实现缓存机制。</span><br><span class="line">详见：https:<span class="comment">//developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Cache-Control</span></span><br></pre></td></tr></table></figure>
+<h5 id="32、JavaScript的对象类型包含。"><a href="#32、JavaScript的对象类型包含。" class="headerlink" title="32、JavaScript的对象类型包含。"></a>32、JavaScript的对象类型包含。</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">数组，函数，正则，日期</span><br></pre></td></tr></table></figure>
+<h5 id="33、判断一个变量是值是数组还是对象。"><a href="#33、判断一个变量是值是数组还是对象。" class="headerlink" title="33、判断一个变量是值是数组还是对象。"></a>33、判断一个变量是值是数组还是对象。</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = [];</span><br><span class="line"><span class="comment">// 1.基于instanceof</span></span><br><span class="line">a <span class="keyword">instanceof</span> <span class="built_in">Array</span>;</span><br><span class="line"><span class="comment">// 2.基于constructor</span></span><br><span class="line">a.constructor === <span class="built_in">Array</span>;</span><br><span class="line"><span class="comment">// 3.通过 Object.prototype.toString.call 方法来识别 </span></span><br><span class="line"><span class="built_in">Object</span>.prototype.toString.call(a)</span><br><span class="line"><span class="comment">// 4.基于Object.prototype.isPrototypeOf</span></span><br><span class="line"><span class="built_in">Array</span>.prototype.isPrototypeOf(a);</span><br><span class="line"><span class="comment">// 5.基于getPrototypeOf</span></span><br><span class="line"><span class="built_in">Object</span>.getPrototypeOf(a) === <span class="built_in">Array</span>.prototype;</span><br><span class="line"><span class="comment">// 6.基于Object.prototype.toString</span></span><br><span class="line"><span class="built_in">Object</span>.prototype.toString.apply(a) === <span class="string">&#x27;[object Array]&#x27;</span>;</span><br><span class="line"><span class="comment">// Array.isArray 的polyfill</span></span><br><span class="line"><span class="keyword">if</span> (!<span class="built_in">Array</span>.isArray)&#123;</span><br><span class="line">  <span class="built_in">Array</span>.isArray = <span class="function"><span class="keyword">function</span>(<span class="params">arg</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">Object</span>.prototype.toString.call(arg) === <span class="string">&#x27;[object Array]&#x27;</span>;</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="34、类数组对象arguments。"><a href="#34、类数组对象arguments。" class="headerlink" title="34、类数组对象arguments。"></a>34、类数组对象arguments。</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">arguments</span> 是一个对应于传递给函数的参数的类数组对象。<span class="built_in">arguments</span>对象是所有（非箭头）函数中都可用的局部变量。</span><br></pre></td></tr></table></figure>
+<p>35、[“1”,”2”,”3”].map(parseInt)</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// parseInt(string, radix) -&gt; map(parseInt(value, index))</span></span><br><span class="line"><span class="comment">/*  first iteration (index is 0): */</span> <span class="built_in">parseInt</span>(<span class="string">&quot;1&quot;</span>, <span class="number">0</span>); <span class="comment">// 1</span></span><br><span class="line"><span class="comment">/* second iteration (index is 1): */</span> <span class="built_in">parseInt</span>(<span class="string">&quot;2&quot;</span>, <span class="number">1</span>); <span class="comment">// NaN</span></span><br><span class="line"><span class="comment">/*  third iteration (index is 2): */</span> <span class="built_in">parseInt</span>(<span class="string">&quot;3&quot;</span>, <span class="number">2</span>); <span class="comment">// NaN</span></span><br><span class="line">如果radix未指定，且第一个参数为string，radix默认会<span class="number">10</span>。如果radix的小于<span class="number">2</span>或者大于<span class="number">36</span>，返回结果也是<span class="literal">NaN</span>。</span><br><span class="line">参考：https:<span class="comment">//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map</span></span><br><span class="line">https:<span class="comment">//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseInt</span></span><br></pre></td></tr></table></figure>
+<p>36、JS模块化规范有哪些？</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">commomJS,AMD.CMD,ES6模块化，......</span><br></pre></td></tr></table></figure>
+<p>37、Array.from的用法。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Array</span>.from() 方法对一个类似数组或可迭代对象创建一个新的，浅拷贝的数组实例。<span class="built_in">console</span>.log(<span class="built_in">Array</span>.from(<span class="string">&#x27;foo&#x27;</span>));=&gt;[<span class="string">&quot;f&quot;</span>,<span class="string">&quot;o&quot;</span>,<span class="string">&quot;o&quot;</span>]</span><br></pre></td></tr></table></figure>
+<p>38、Vue开发环境和线上环境如何切换</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">process.env </span><br></pre></td></tr></table></figure>
+<p>39、Object.defineProperty 和 Proxy 的区别</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">参考<span class="number">23</span>题</span><br></pre></td></tr></table></figure>
+<p>40、React怎么在组件中监听路由参数的变化。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">在useEffect()中可以通过history监听路由变化</span><br><span class="line"><span class="keyword">const</span> history = useHistory()</span><br><span class="line">useEffect(<span class="function">()=&gt;</span>&#123;</span><br><span class="line">  history.listen(<span class="function"><span class="params">historyLocation</span>=&gt;</span>....)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">component</span></span></span><br><span class="line"><span class="class">  <span class="title">props</span>.<span class="title">history</span></span></span><br></pre></td></tr></table></figure>
+<p>41、对比Vue和React的差异。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">27</span>题</span><br></pre></td></tr></table></figure>
+<p>42、React项目优化的方式有哪些。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">减少dom更新次数</span><br><span class="line">使用生产版本</span><br><span class="line">长列表优化</span><br><span class="line">webpack压缩（rollup）</span><br><span class="line">缓存</span><br><span class="line"></span><br><span class="line">https:<span class="comment">//zh-hans.reactjs.org/docs/optimizing-performance.html</span></span><br></pre></td></tr></table></figure>
+<p>43、Hash 和history路由模式的区别？</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">hash模式：监听浏览器地址hash值变化，执行相应的js切换网页；</span><br><span class="line">history模式：利用history API实现url地址改变，网页内容改变；</span><br><span class="line"></span><br><span class="line">hash模式：使用<span class="built_in">window</span>.location.hash属性及窗口的onhashchange事件，可以实现监听浏览器地址hash值变化，执行相应的js切换网页。</span><br><span class="line"></span><br><span class="line">history模式：<span class="built_in">window</span>.history 属性指向 History 对象，它表示当前窗口的浏览历史。当发生改变时，只会改变页面的路径，不会刷新页面。</span><br><span class="line">每当 history 对象出现变化时，就会触发 popstate 事件。</span><br><span class="line"></span><br><span class="line">hash 就是指 url 尾巴后的 # 号以及后面的字符，history没有底带#，外观上比hash 模好看些hash回车刷新会加载到地址栏对应的页面，history一般就是404掉了hash 能兼容到IE8， history 只能兼容到 IE10；</span><br></pre></td></tr></table></figure>
+<p>44、call，apply和bind的作用和区别</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">14</span>题</span><br></pre></td></tr></table></figure>
+<p>45、谈谈axios拦截器。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">请求拦截器和响应拦截器</span><br><span class="line">请求拦截器</span><br><span class="line">axios.interceptors.request.use(func)</span><br><span class="line">响应拦截器</span><br><span class="line">axios.interceptors.response.use(func)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>46、谈谈浏览器缓存，如何进行强制缓存？</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">浏览器第一次向服务器发起该请求后拿到请求结果，会根据响应报文中HTTP头的缓存标识，决定是否缓存结果，是则将请求结果和缓存标识存入浏览器缓存中.缓存分为：</span><br><span class="line">强制缓存就是向浏览器缓存查找该请求结果，并根据该结果的缓存规则来决定是否使用该缓存结果的过程.</span><br><span class="line">协商缓存就是强制缓存失效后，浏览器携带缓存标识向服务器发起请求，由服务器根据缓存标识决定是否使用缓存的过程</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">控制强制缓存的字段分别是Expires和Cache-Control，其中Cache-Control优先级比Expires高。</span><br><span class="line"></span><br><span class="line">Expires是HTTP/<span class="number">1.0</span>控制网页缓存的字段，其值为服务器返回该请求结果缓存的到期时间，即再次发起该请求时，如果客户端的时间小于Expires的值时，直接使用缓存结果。</span><br><span class="line">在HTTP/<span class="number">1.1</span>中，Cache-Control是最重要的规则，主要用于控制网页缓存，主要取值为：</span><br><span class="line">            public：所有内容都将被缓存（客户端和代理服务器都可缓存）</span><br><span class="line">            private：所有内容只有客户端可以缓存，Cache-Control的默认取值</span><br><span class="line">            no-cache：客户端缓存内容，但是是否使用缓存则需要经过协商缓存来验证决定</span><br><span class="line">            no-store：所有内容都不会被缓存，即不使用强制缓存，也不使用协商缓存</span><br><span class="line">            max-age=xxx (xxx is numeric)：缓存内容将在xxx秒后失效</span><br></pre></td></tr></table></figure>
+<p>47、React如何更改组件的状态，如何去监听组件状态？</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">useEffect()</span><br></pre></td></tr></table></figure>
+<p>48、实现一个算法，生成一个不会重复的uuid。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Date</span>.now().toString(<span class="number">16</span>)</span><br><span class="line">md5(<span class="built_in">Date</span>.now())</span><br><span class="line">sha1  </span><br></pre></td></tr></table></figure>
+<p>49、定义一个方法，实现数组的扁平化</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">核心代码</span><br><span class="line"><span class="number">1</span>、arr.flat(<span class="literal">Infinity</span>)</span><br><span class="line"><span class="number">2</span>、<span class="function"><span class="keyword">function</span> <span class="title">flatten</span>(<span class="params">arr</span>) </span>&#123;</span><br><span class="line">      <span class="keyword">return</span> arr.reduce(<span class="function">(<span class="params">res,next</span>) =&gt;</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> res.concat(<span class="built_in">Array</span>.isArray(next)? flatten(next) : next);</span><br><span class="line">      &#125;,[]);</span><br><span class="line">    &#125;</span><br><span class="line"><span class="number">3</span>、arr.toString().split(<span class="string">&quot;,&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>50、定义一个方法，实现数组的排序</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">bubbleSort</span>(<span class="params">arr</span>) </span>&#123;</span><br><span class="line">           <span class="keyword">var</span> len = arr.length;</span><br><span class="line">           <span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; len - <span class="number">1</span>; i++) &#123;</span><br><span class="line">               <span class="keyword">for</span>(<span class="keyword">var</span> j = <span class="number">0</span>; j &lt; len - <span class="number">1</span> - i; j++) &#123;</span><br><span class="line">                   <span class="keyword">if</span>(arr[j + <span class="number">1</span>] &lt; arr[j]) &#123;</span><br><span class="line">                       <span class="keyword">var</span> middle = arr[j+<span class="number">1</span>];</span><br><span class="line">                       arr[j+<span class="number">1</span>] = arr[j];</span><br><span class="line">                       arr[j] = middle;</span><br><span class="line">                   &#125;</span><br><span class="line">               &#125;</span><br><span class="line">           &#125;</span><br><span class="line">           <span class="keyword">return</span> arr;</span><br><span class="line">       &#125;;</span><br></pre></td></tr></table></figure>
+<p>51、实现浅拷贝的几种方式。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>、<span class="built_in">Object</span>.assign(target,source)</span><br><span class="line"><span class="number">2</span>、扩展运算符 <span class="keyword">let</span> cloneObj = &#123; ...obj &#125;</span><br><span class="line"><span class="number">3</span>、concat() </span><br><span class="line"><span class="keyword">let</span> arr = [<span class="number">1</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">8</span>];</span><br><span class="line"><span class="keyword">let</span> copyArr = arr.concat();</span><br><span class="line"><span class="built_in">console</span>.log(copyArr)</span><br><span class="line"><span class="number">4</span>、slice()</span><br></pre></td></tr></table></figure>
+<p>52、手写一个浅拷贝。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> shallowClone = <span class="function">(<span class="params">target</span>) =&gt;</span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(target === <span class="string">&#x27;object&#x27;</span> &amp;&amp; target !== <span class="literal">null</span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> cloneTarget = <span class="built_in">Array</span>.isArray(target) ? []:&#123;&#125;;</span><br><span class="line">    <span class="keyword">for</span>(prop <span class="keyword">in</span> target)&#123;</span><br><span class="line">      <span class="keyword">if</span>(target.hasOwnProperty(prop))&#123;</span><br><span class="line">        cloneTarget[prop] = target[prop]</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> cloneTarget;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> target;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> arr = [<span class="number">1</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">7</span>,&#123;<span class="attr">name</span>:<span class="string">&#x27;apple&#x27;</span>&#125;];</span><br><span class="line"><span class="keyword">let</span> newArr = shallowClone(arr);</span><br><span class="line"><span class="built_in">console</span>.log(newArr)</span><br></pre></td></tr></table></figure>
+<p>53、new的执行过程。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Car</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">this</span>.name = <span class="string">&quot;MAN&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> obj = <span class="keyword">new</span> Car()</span><br><span class="line"><span class="built_in">console</span>.log(obj.name) <span class="comment">//MAN</span></span><br><span class="line">大致的执行步骤：</span><br><span class="line">创建一个新对象；</span><br><span class="line">将构造函数的作用域赋给新对象（<span class="built_in">this</span> 指向新对象）；</span><br><span class="line">执行构造函数中的代码（为这个新对象添加属性）；</span><br><span class="line">返回新对象。</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> 关键词执行之后总是会返回一个对象，要么是实例对象，要么是 <span class="keyword">return</span> 语句指定的对象。</span><br></pre></td></tr></table></figure>
+<p>54、new的实现</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">_new</span>(<span class="params">type</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">debugger</span></span><br><span class="line">  <span class="keyword">if</span>(<span class="keyword">typeof</span> type !== <span class="string">&#x27;function&#x27;</span>)&#123;</span><br><span class="line">    <span class="keyword">throw</span> <span class="string">&#x27;type must be function&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">var</span> args = <span class="built_in">Array</span>.prototype.slice.call(<span class="built_in">arguments</span>, <span class="number">1</span>);</span><br><span class="line">  <span class="keyword">let</span> obj = <span class="keyword">new</span> <span class="built_in">Object</span>()</span><br><span class="line">  <span class="comment">//链接空对象到原型上</span></span><br><span class="line">  obj.__proto__ = <span class="built_in">Object</span>.create(type.prototype)</span><br><span class="line">  <span class="comment">//绑定obj的this上下文</span></span><br><span class="line">  <span class="keyword">let</span> res = type.apply(obj,args)</span><br><span class="line">  <span class="keyword">let</span> isObject = <span class="keyword">typeof</span> res === <span class="string">&#x27;object&#x27;</span> &amp;&amp; res !== <span class="literal">null</span></span><br><span class="line">  <span class="keyword">let</span> isFunction = <span class="keyword">typeof</span> res === <span class="string">&#x27;function&#x27;</span></span><br><span class="line">  <span class="keyword">return</span> isObject || isFunction ? res : obj</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Car</span>(<span class="params">name,color</span>)</span>&#123;</span><br><span class="line">  <span class="built_in">this</span>.name = name</span><br><span class="line">  <span class="built_in">this</span>.color = color</span><br><span class="line">  Car.prototype.getName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">this</span>.name</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> obj11 = _new(Car,<span class="string">&#x27;MAN&#x27;</span>,[<span class="string">&#x27;red&#x27;</span>, <span class="string">&#x27;blue&#x27;</span>])</span><br><span class="line"><span class="built_in">console</span>.log(obj11);</span><br></pre></td></tr></table></figure>
+<p>55、什么是闭包？</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">闭包其实就是一个可以访问其他函数内部变量的函数。即一个定义在函数内部的函数，或者直接说闭包是个内嵌函数也可以。</span><br><span class="line">因为通常情况下，函数内部变量是无法在外部访问的（即全局变量和局部变量的区别），因此使用闭包的作用，就具备实现了能在外部访问某个函数内部变量的功能，让这些内部变量的值始终可以保存在内存中。</span><br><span class="line"><span class="string">&#x27;闭包产生的本质就是：当前环境中存在指向父级作用域的引用。&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>56、闭包的表现形式。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span> 返回一个函数，上面讲原因的时候已经说过，这里就不赘述了。</span><br><span class="line"><span class="number">2.</span> 在定时器、事件监听、Ajax 请求、Web Workers 或者任何异步中，只要使用了回调函数，实际上就是在使用闭包。</span><br><span class="line"><span class="number">3.</span> 作为函数参数传递的形式</span><br><span class="line"><span class="number">4.</span> IIFE（立即执行函数），创建了闭包，保存了全局作用域（<span class="built_in">window</span>）和当前函数的作用域</span><br></pre></td></tr></table></figure>
+<p>57、循环引用问题。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i ++)&#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(i)</span><br><span class="line">  &#125;, <span class="number">0</span>)</span><br><span class="line">  <span class="built_in">console</span>.log(i);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">以上输出的结果是？</span><br><span class="line"></span><br><span class="line">上图的输出结果并不是想象中的  <span class="number">1</span>、<span class="number">2</span>、<span class="number">3</span>、<span class="number">4</span>、<span class="number">5</span>。而是<span class="number">6</span>，为什么呢？原因如下：</span><br><span class="line"><span class="number">1</span>、<span class="built_in">setTimeout</span> 为宏任务，由于 JS 中单线程 eventLoop 机制，在主线程同步任务执行完后才去执行宏任务，因此循环结束后 <span class="built_in">setTimeout</span> 中的回调才依次执行。</span><br><span class="line"><span class="number">2</span>、因为 <span class="built_in">setTimeout</span> 函数也是一种闭包，往上找它的父级作用域链就是 <span class="built_in">window</span>，变量 i 为 <span class="built_in">window</span> 上的全局变量，开始执行 <span class="built_in">setTimeout</span> 之前变量 i 已经就是 <span class="number">6</span> 了，因此最后输出的连续就都是 <span class="number">6</span>。</span><br><span class="line"><span class="string">&#x27;解决办法：&#x27;</span></span><br><span class="line"><span class="number">1</span>、最简单的使用es6的<span class="keyword">let</span>。</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++)&#123;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">console</span>.log(i);</span><br><span class="line"></span><br><span class="line">  &#125;,<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="number">2</span>、利用IIFE 立即执行函数。</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">1</span>;i &lt;= <span class="number">5</span>;i++)&#123;</span><br><span class="line">  (<span class="function"><span class="keyword">function</span>(<span class="params">j</span>)</span>&#123;</span><br><span class="line">    <span class="built_in">setTimeout</span>(<span class="function"><span class="keyword">function</span> <span class="title">timer</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">      <span class="built_in">console</span>.log(j)</span><br><span class="line">    &#125;, <span class="number">0</span>)</span><br><span class="line">  &#125;)(i)</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="number">3</span>、利用定时器传入第三个参数。</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">1</span>;i&lt;=<span class="number">5</span>;i++)&#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function"><span class="keyword">function</span>(<span class="params">j</span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(j)</span><br><span class="line">  &#125;, <span class="number">0</span>, i)</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>58、JavaScript中改变自身的数组方法。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pop、push、reverse、shift、sort、splice、unshift，以及两个 ES6 新增的方法 copyWithin 和 fill。</span><br></pre></td></tr></table></figure>
+<p>59、JavaScript中不改变自身的数组方法。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">concat、join、slice、toString、toLocaleString、indexOf、lastIndexOf以及 ES7 新增的方法 includes。</span><br></pre></td></tr></table></figure>
+<p>60、简述promise，promise有哪些状态？.then返回的是什么？promise.race,promise.any,promise.all分别代表什么意思？</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>、</span><br><span class="line"><span class="built_in">Promise</span> 对象用于表示一个异步操作的最终完成 (或失败)及其结果值。</span><br><span class="line"><span class="number">2</span>、</span><br><span class="line">待定（pending）: 初始状态，既没有被兑现，也没有被拒绝。</span><br><span class="line">已兑现（fulfilled）: 意味着操作成功完成。</span><br><span class="line">已拒绝（rejected）: 意味着操作失败。</span><br><span class="line"></span><br><span class="line"><span class="number">3</span>、</span><br><span class="line">因为 <span class="built_in">Promise</span>.prototype.then 和  <span class="built_in">Promise</span>.prototype.catch 方法返回的是 promise， 所以它们可以被链式调用。</span><br><span class="line"><span class="number">4</span>、</span><br><span class="line"><span class="built_in">Promise</span>.race(iterable)</span><br><span class="line">当iterable参数里的任意一个子promise被成功或失败后，父promise马上也会用子promise的成功返回值或失败详情作为参数调用父promise绑定的相应句柄，并返回该promise对象。</span><br><span class="line"><span class="built_in">Promise</span>.any(iterable)</span><br><span class="line">接收一个<span class="built_in">Promise</span>对象的集合，当其中的一个 promise 成功，就返回那个成功的promise的值</span><br><span class="line"><span class="built_in">Promise</span>.all(iterable)</span><br><span class="line">这个方法返回一个新的promise对象，该promise对象在iterable参数对象里所有的promise对象都成功的时候才会触发成功，</span><br></pre></td></tr></table></figure>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/undefined/前端面试题/" data-toggle="tooltip" data-placement="top" title="前端面试题">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/cn/Hexo-Theme-LiveMyLife/" data-toggle="tooltip" data-placement="top" title="Hexo-Theme-LiveMyLife">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=掌握重点面试题&body=Hi,I found this website and thought you might like it http://yoursite-url/undefined/掌握重点面试题/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '',
+      clientSecret: '',
+      repo: '',
+      owner: '',
+      admin: '',
+      id: 'Wed May 25 2022 20:39:11 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'zh-CN',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#1%E3%80%81react%E6%9C%89%E5%93%AA%E4%BA%9B%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%9A%84%E7%82%B9"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">1、react有哪些性能优化的点</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#2%E3%80%81v8%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">2、v8垃圾回收机制</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#3%E3%80%81CSS%E6%A0%B7%E5%BC%8F%E9%9A%94%E7%A6%BB%E6%89%8B%E6%AE%B5"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">3、CSS样式隔离手段</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#5%E3%80%81%E8%81%8A%E4%B8%8B%E4%BD%A0%E7%9F%A5%E9%81%93%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8%E6%9E%B6%E6%9E%84"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">5、聊下你知道的浏览器架构</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#6%E3%80%81%E6%98%AF%E5%90%A6%E6%9C%89%E5%86%99%E8%BF%87webpack%E6%8F%92%E4%BB%B6"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">6、是否有写过webpack插件</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#7%E3%80%81websocket%E5%BB%BA%E7%AB%8B%E8%BF%87%E7%A8%8B"><span class="toc-nav-number">6.</span> <span class="toc-nav-text">7、websocket建立过程</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#9%E3%80%81%E5%AE%9E%E7%8E%B0%E9%98%B2%E6%8A%96%E5%87%BD%E6%95%B0"><span class="toc-nav-number">7.</span> <span class="toc-nav-text">9、实现防抖函数</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#10%E3%80%81Vue%E9%A6%96%E5%B1%8F%E7%99%BD%E5%B1%8F%E6%88%96%E8%80%85%E5%8A%A0%E8%BD%BD%E6%85%A2%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3"><span class="toc-nav-number">8.</span> <span class="toc-nav-text">10、Vue首屏白屏或者加载慢如何解决</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#11%E3%80%81Vue%E7%BA%BF%E4%B8%8A%E7%8E%AF%E5%A2%83%E5%92%8C%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%A6%82%E4%BD%95%E5%88%87%E6%8D%A2"><span class="toc-nav-number">9.</span> <span class="toc-nav-text">11、Vue线上环境和开发环境如何切换</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#12%E3%80%81%E8%B0%88%E8%B0%88axios%E6%8B%A6%E6%88%AA%E5%99%A8"><span class="toc-nav-number">10.</span> <span class="toc-nav-text">12、谈谈axios拦截器</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#13%E3%80%81hash%E5%92%8Chistory%E8%B7%AF%E7%94%B1%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-nav-number">11.</span> <span class="toc-nav-text">13、hash和history路由的区别</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#14%E3%80%81call%EF%BC%8Capply%E5%92%8Cbind%E7%9A%84%E4%BD%9C%E7%94%A8%E5%92%8C%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="toc-nav-number">12.</span> <span class="toc-nav-text">14、call，apply和bind的作用和区别？</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#15%E3%80%81useMemo%E7%9A%84%E4%BD%9C%E7%94%A8"><span class="toc-nav-number">13.</span> <span class="toc-nav-text">15、useMemo的作用</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#16%E3%80%81react%E4%B8%AD%E5%8F%91%E9%80%81%E8%AF%B7%E6%B1%82%E4%B8%80%E8%88%AC%E5%9C%A8%E5%93%AA%E4%B8%AAhook%E4%B8%AD"><span class="toc-nav-number">14.</span> <span class="toc-nav-text">16、react中发送请求一般在哪个hook中</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#17%E3%80%81%E5%A6%82%E4%BD%95%E6%9B%B4%E6%96%B0%E7%BB%84%E4%BB%B6%E7%9A%84%E7%8A%B6%E6%80%81"><span class="toc-nav-number">15.</span> <span class="toc-nav-text">17、如何更新组件的状态</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#18%E3%80%81%E5%A6%82%E4%BD%95%E7%9B%91%E5%90%ACreact%E7%8A%B6%E6%80%81%E6%9B%B4%E6%96%B0"><span class="toc-nav-number">16.</span> <span class="toc-nav-text">18、如何监听react状态更新</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#19%E3%80%81Vue%E4%B8%AD%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86"><span class="toc-nav-number">17.</span> <span class="toc-nav-text">19、Vue中的响应式原理</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#20%E3%80%81Vue-Router-%E6%9C%89%E5%93%AA%E5%87%A0%E7%A7%8D%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB"><span class="toc-nav-number">18.</span> <span class="toc-nav-text">20、Vue-Router 有哪几种路由守卫?</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#21%E3%80%81%E7%AE%80%E8%BF%B0-Vuex-%E7%9A%84%E6%95%B0%E6%8D%AE%E4%BC%A0%E9%80%92%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">19.</span> <span class="toc-nav-text">21、简述 Vuex 的数据传递流程</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#22%E3%80%81Vue-%E5%92%8C-jQuery-%E4%B8%A4%E8%80%85%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-nav-number">20.</span> <span class="toc-nav-text">22、Vue 和 jQuery 两者之间的区别是什么</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#23%E3%80%81Object-defineProperty-%E5%92%8C-Proxy-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-nav-number">21.</span> <span class="toc-nav-text">23、Object.defineProperty 和 Proxy 的区别</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#24%E3%80%81Vue%E6%80%8E%E4%B9%88%E5%9C%A8%E7%BB%84%E4%BB%B6%E4%B8%AD%E7%9B%91%E5%90%AC%E8%B7%AF%E7%94%B1%E5%8F%82%E6%95%B0%E7%9A%84%E5%8F%98%E5%8C%96%EF%BC%9F"><span class="toc-nav-number">22.</span> <span class="toc-nav-text">24、Vue怎么在组件中监听路由参数的变化？</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#26%E3%80%81Vue%E5%BE%AA%E7%8E%AFkey%E7%9A%84%E4%BD%9C%E7%94%A8"><span class="toc-nav-number">23.</span> <span class="toc-nav-text">26、Vue循环key的作用</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#27%E3%80%81%E5%AF%B9%E6%AF%94Vue%E5%92%8CReact%E7%9A%84%E5%B7%AE%E5%BC%82%E3%80%82"><span class="toc-nav-number">24.</span> <span class="toc-nav-text">27、对比Vue和React的差异。</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#28%E3%80%81ES%E4%B8%ADJavaScript%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F"><span class="toc-nav-number">25.</span> <span class="toc-nav-text">28、ES中JavaScript的数据类型有哪些？</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#29%E3%80%81%E5%9C%A8JavaScript%E4%B8%AD%EF%BC%8C%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E5%93%AA%E4%BA%9B%E6%96%B9%E5%BC%8F%E6%94%B9%E5%8F%98this%E6%8C%87%E5%90%91%E3%80%82"><span class="toc-nav-number">26.</span> <span class="toc-nav-text">29、在JavaScript中，可以通过哪些方式改变this指向。</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#30%E3%80%81http%E5%B8%B8%E8%A7%81%E7%9A%84header%E3%80%82"><span class="toc-nav-number">27.</span> <span class="toc-nav-text">30、http常见的header。</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#31%E3%80%81http%E4%B8%ADcache-control%E7%9A%84%E5%90%AB%E4%B9%89"><span class="toc-nav-number">28.</span> <span class="toc-nav-text">31、http中cache-control的含义</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#32%E3%80%81JavaScript%E7%9A%84%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%E5%8C%85%E5%90%AB%E3%80%82"><span class="toc-nav-number">29.</span> <span class="toc-nav-text">32、JavaScript的对象类型包含。</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#33%E3%80%81%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E5%8F%98%E9%87%8F%E6%98%AF%E5%80%BC%E6%98%AF%E6%95%B0%E7%BB%84%E8%BF%98%E6%98%AF%E5%AF%B9%E8%B1%A1%E3%80%82"><span class="toc-nav-number">30.</span> <span class="toc-nav-text">33、判断一个变量是值是数组还是对象。</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#34%E3%80%81%E7%B1%BB%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1arguments%E3%80%82"><span class="toc-nav-number">31.</span> <span class="toc-nav-text">34、类数组对象arguments。</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="https://00-Katrina.github.io/" target="_blank">Katrina</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+
+		<!-- Footer (contains ThemeColor、viewer) -->
+		<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          Katrina
+          2023
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/mouseclick.js"  content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033' ></script>
+    <!-- Mouseclick -->
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "00-Katrina";
+    let ghPages = gh + ".github.io";
+    let pagePath = "undefined/掌握重点面试题/";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://yoursite-url/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+		<!-- Search -->
+		
+		<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/00-Katrina/00-Katrina.github.io' + imgUrl;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+		
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
