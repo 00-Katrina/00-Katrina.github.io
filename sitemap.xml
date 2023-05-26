@@ -44,21 +44,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite-url/undefined/HTML5-01/</loc>
-    
-    <lastmod>2020-09-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite-url/en/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-09-17</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://yoursite-url/en/Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-09-17</lastmod>
     
@@ -95,13 +88,6 @@
 
   
   <url>
-    <loc>http://yoursite-url/tags/%E7%AE%80%E5%8E%86/</loc>
-    <lastmod>2023-05-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yoursite-url/tags/Hexo-Theme-LiveMyLife/</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
@@ -109,20 +95,13 @@
   </url>
   
   <url>
-    <loc>http://yoursite-url/tags/HTML/</loc>
+    <loc>http://yoursite-url/tags/%E7%AE%80%E5%8E%86/</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
 
-  
-  <url>
-    <loc>http://yoursite-url/categories/%E7%AE%80%E5%8E%86/</loc>
-    <lastmod>2023-05-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
   
   <url>
     <loc>http://yoursite-url/categories/Hexo-Theme-LiveMyLife/</loc>
@@ -132,7 +111,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite-url/categories/HTML/</loc>
+    <loc>http://yoursite-url/categories/%E7%AE%80%E5%8E%86/</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
